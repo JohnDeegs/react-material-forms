@@ -1,0 +1,61 @@
+$font: 'Roboto', sans-serif;
+$header-color: #3863a0;
+$alternate-color: #3dbe8b;
+
+body{
+    font-family: $font;
+    background-color: #fff; 
+}
+
+.flex{
+    flex: 1
+}
+
+#myNavBar{
+    box-shadow: none;
+    background-color: $header-color
+}
+
+.formTexts{
+    text-align: center;
+}
+
+#formHeader{
+    color: $header-color;
+    margin-top: 70px;
+}
+
+progress{
+    -webkit-appearance: none;
+    height: 5px;
+    width: 100%;
+}
+
+progress::-webkit-progress-value{
+    background-color: $alternate-color;
+}
+
+input{
+    width: 90%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    padding: 10px 8px 10px 8px;
+    border: 1px solid rgba(0, 0,0, .2);
+}
+
+input, input::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+#startedBtn{
+    background-color: $alternate-color;
+    color: rgba(255, 255, 255, .9);
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 60%;
+}
+
